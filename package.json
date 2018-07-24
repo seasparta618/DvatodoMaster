@@ -1,0 +1,42 @@
+{
+  "name": "dvatodo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ManuRodgers/dvatodo.git",
+  "author": "manu <manurodgersgoat@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clear": "rimraf ./src/dist",
+    "build": "yarn run clear && webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "postcss-loader": "^2.1.5",
+    "redux-logger": "^3.0.6",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-runtime": "^6.26.0",
+    "classnames": "^2.2.5",
+    "dva": "^2.2.3",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "mongoose": "^5.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
